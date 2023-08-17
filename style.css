@@ -215,3 +215,11 @@ fieldset input{
 footer{
   text-align: center;
 }
+
+/* parte tematicas */
+
+
+.carousel-item img{
+  opacity: 0.7;
+}
+  
