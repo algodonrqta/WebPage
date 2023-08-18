@@ -150,7 +150,7 @@ main h2{
 }
 
 .integrantes:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .integrantes img{
@@ -176,7 +176,7 @@ main h2{
 }
 
 .integrantes div p{
-  padding: 1rem;
+  padding: 0rem;
   text-align: center;
 }
 
