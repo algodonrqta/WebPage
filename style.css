@@ -121,24 +121,6 @@ body {
 
 /* parte contactos */
 
-
-.galeria{
-  width: 95vw;
-  height: 423px;
-  display: flex;
-  justify-content: center;
-}
-
-.galeria img{
-  width: 24.5%;
-  object-fit: cover;
-  transition: all 5s ease;
-}
-
-.galeria img:hover{
-  width: 50%;
-}
-
 main{
   background-color: white;
   min-height: 79vh;
@@ -173,7 +155,7 @@ main h2{
 
 .integrantes img{
   height: 100%;
-  width: 50%;
+  width: 100%;
   object-fit: contain;
   background-color: rgba(253, 253, 253, 0.616);
   border-radius: 1rem 0 0 1rem;
@@ -195,6 +177,7 @@ main h2{
 
 .integrantes div p{
   padding: 1rem;
+  text-align: center;
 }
 
 fieldset{
