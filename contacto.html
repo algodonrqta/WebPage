@@ -169,22 +169,49 @@
 
         <h2><br>Contáctenos<br></h2>
 
-        <fieldset>
-            <legend>Dejanos tu consulta</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="Nombre">
-            <input type="text" id="nombre" placeholder="Apellido">
-            <label for="correo">Email:</label>
-            <input type="email" id="correo">
-            
-        </fieldset>
+        <div class="container-fluid">
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <fieldset class="mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Dedicación</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Productor
+                    </label>
+                  </div>                
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Ingeniero Agrónomo
+                    </label>
+                </div>
+                </div><div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Estudiante
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Otro
+                    </label>
+                </div>
+              </div>
+            </fieldset>            
+            <button type="submit" class="btn btn-primary">Enviar mail</button>
+          </form>
+        </div>
         
-
-        <fieldset>
-            <legend>¿Cuál es su consulta?</legend>
-            <label for="comentario"></label>
-            <textarea name="comentario" id="comentario" cols="80" rows="10" placeholder="La primer consulta es gratuita, la segunda se cobra"></textarea>
-        </fieldset>
 
     </main>
 
