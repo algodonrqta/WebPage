@@ -11,7 +11,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  padding-top: 4.55rem;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
   margin: 0 auto;
 }
 
-.nav {
+.container-fluid {
   position: fixed;
   background-color: #222;
   top: 0;
@@ -43,7 +44,7 @@ body {
   justify-content: center;
 }
 
-.nav a {
+.container-fluid a {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
@@ -63,8 +64,8 @@ body {
   padding: 10px 0;
 }
 
-.nav a.current,
-.nav a:hover {
+.container-fluid a.current,
+.container-fluid a:hover {
   color: #c0392b;
   font-weight: bold;
 }
@@ -301,13 +302,13 @@ footer{
 }
 
 #carouselExampleDark{
-  padding: 0.5rem;
+  padding: 0rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
 
 .carousel-item {
-  height: 520px;
+  height: 540px;
 }
 
 .carousel-caption h1{
