@@ -125,7 +125,7 @@ main{
   background-color: white;
   min-height: 79vh;
   padding: 1rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -140,17 +140,27 @@ main h2{
   font-size: 3rem;
 }
 
+main p{  
+  text-align: center;
+  font-size: 1rem;
+}
+
+main li{
+  text-align: justify;
+  font-size: 1rem;
+}
+
 .integrantes{
   display: flex;
   background-color: white;
-  width: 400px;
+  width: 375px;
   height: 200px;
   border-radius: 1rem;
   transition: all 0.5s;
 }
 
 .integrantes:hover{
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 .integrantes img{
@@ -162,7 +172,7 @@ main h2{
 }
 
 .integrantes div{
-  width: 50%;
+  width: 30%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -172,7 +182,7 @@ main h2{
 .integrantes div h2{
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .integrantes div p{
