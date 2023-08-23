@@ -8,11 +8,7 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #222;
-  padding-bottom: 0px;
-}
+
 
 .container {
   max-width: 1200px;
@@ -121,18 +117,7 @@ body {
 
 /* parte contactos */
 
-main{
-  background-color: white;
-  min-height: 79vh;
-  padding: 1rem;
-  padding-top: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
-}
+
 
 main h2{
   width: 100%;
@@ -212,87 +197,6 @@ footer{
 /* parte tematicas */
 
 
-.mejoramiento {
-  background-image: url('img/mejoramiento.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  margin-bottom: 20px;
-  z-index: -2;
-}
-
-.mejoramiento::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.biotecnologia {
-  background-image: url('img/biotecnologia.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  margin-bottom: 20px;
-  z-index: -2;
-}
-
-.biotecnologia::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.ecofisiologia {
-  background-image: url('img/ecofisiologia.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  margin-bottom: 20px;
-  z-index: -2;
-}
-
-.ecofisiologia::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
 #carouselExampleDark{
   padding: 0rem;
 }
@@ -309,6 +213,10 @@ footer{
   color: white;
 }
 
+/* parte articulos */
 
+.container {
+  padding-top: 1rem;
+}
 
   
