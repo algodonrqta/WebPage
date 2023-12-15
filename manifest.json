@@ -1,0 +1,45 @@
+{
+  "theme_color": "#faf7f5",
+  "background_color": "#faf7f5",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "./index.html",
+  "name": "Equipo de investigación en algodón",
+  "short_name": "Algodón Rqta",
+  "description": "Aplicación para atender a las demandas territoriales.",
+  "icons": [
+      {
+          "src": "./img/icon/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "./img/icon/icon-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "./img/icon/icon-384x384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+      },
+      {
+          "src": "./img/icon/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],
+  "screenshots": [
+    {
+      "src": "./img/screenshot1.png",
+      "sizes": "800x600",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./img/screenshot2.png",
+      "sizes": "1024x768",
+      "type": "image/png"
+    }
+  ]
+}
