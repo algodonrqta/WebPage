@@ -122,6 +122,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  visibility: hidden; /* Oculta el botón */
 }
 
 #install:hover {
