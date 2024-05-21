@@ -114,6 +114,24 @@
   letter-spacing: 1.2px;
 }
 
+/* boton instalar */
+#install {
+  padding: 10px 20px;
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#install:hover {
+  background-color: #0056b3;
+}
+
+#install:active {
+  background-color: #003366;
+}
+
 
 /* parte contactos */
 
